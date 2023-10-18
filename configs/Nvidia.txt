@@ -11,7 +11,7 @@ with_GT_poses = 1
 step_ratio = 2.0
 
 N_voxel_t = 12  # need to match the number of time steps
-n_iters = 9000
+n_iters = 36000
 batch_size = 1024
 
 N_voxel_init = 2097156 # 128**3
