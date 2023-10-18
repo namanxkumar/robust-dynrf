@@ -11,7 +11,7 @@ with_GT_poses = 1
 step_ratio = 2.0
 
 N_voxel_t = 12  # need to match the number of time steps
-n_iters = 100000
+n_iters = 9000
 batch_size = 1024
 
 N_voxel_init = 2097156 # 128**3
@@ -21,8 +21,8 @@ update_AlphaMask_list = [300000000]
 
 N_vis = -1 # vis all testing images
 vis_every = 1000000
-vis_train_every = 5000
-progress_refresh_rate = 1000
+vis_train_every = 1000
+progress_refresh_rate = 100
 
 render_test = 1
 render_path = 1
